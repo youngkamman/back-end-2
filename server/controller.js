@@ -34,7 +34,7 @@ module.exports = {
     };
     houses.push(newHouse);
     res.status(200).send(houses);
-    globalId++;
+    globalID++;
     },
     updateHouse : (req,res) => {
         let {id} = req.params
